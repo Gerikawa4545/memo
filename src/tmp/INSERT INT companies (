@@ -1,0 +1,11 @@
+INSERT INTO companies (
+    name,
+    establishment_date,
+    founder
+) VALUES (
+    'nogizaka46 inc',
+    '2020-10-first',
+    'Runa Hayashi'
+);
+
+SELECT * FROM companies\G
